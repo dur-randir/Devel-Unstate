@@ -1,4 +1,4 @@
-use 5.010;
+use 5.014;
 use ExtUtils::MakeMaker;
 
 system 'pod2text lib/Test/NoState.pm > README';
@@ -19,6 +19,6 @@ WriteMakefile(
     },
     ABSTRACT_FROM   => 'lib/Test/NoState.pm',
     LICENSE         => 'perl',
-    MIN_PERL_VERSION=> 5.010,
+    MIN_PERL_VERSION=> 5.014,
 );
 
