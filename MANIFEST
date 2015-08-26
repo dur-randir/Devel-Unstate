@@ -4,4 +4,5 @@ Makefile.PL
 MANIFEST			This list of files
 NoState.xs
 README
-t/01_basic.t
+t/01_sassign.t
+t/02_padsv.t
