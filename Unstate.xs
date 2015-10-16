@@ -30,7 +30,7 @@ my_rpeep(pTHX_ OP* o) {
     prev_rpeepp(aTHX_ orig_o);
 }
 
-MODULE = Test::NoState      PACKAGE = Test::NoState
+MODULE = Devel::Unstate      PACKAGE = Devel::Unstate
 PROTOTYPES: DISABLE
 
 BOOT:

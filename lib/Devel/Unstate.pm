@@ -1,18 +1,18 @@
-package Test::NoState;
+package Devel::Unstate;
 use 5.010;
 use strict;
 
 our $VERSION = '0.01';
 
 require XSLoader;
-XSLoader::load('Test::NoState', $VERSION);
+XSLoader::load('Devel::Unstate', $VERSION);
 
 1;
 __END__
 
 =head1 NAME
 
-Test::NoState - Disable 'state' keyword statelessness
+Devel::Unstate - Disable 'state' keyword statelessness
 
 =head1 DESCRIPTION
 
@@ -21,7 +21,7 @@ B<my> variables. This can be useful for testing, when you cache
 some data in your application, but want to get fresh values on each
 test iteration.
 
-The effect of the C<Test::NoState> is global. But only variable declarations
+The effect of C<Devel::Unstate> is global. But only variable declarations
 compiled after it is loaded are affected.
 
 =head1 COPYRIGHT AND LICENSE
