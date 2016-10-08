@@ -15,6 +15,7 @@ WriteMakefile(
     META_MERGE      => {
         resources     => {
             repository  => 'https://github.com/dur-randir/Devel-Unstate',
+            bugtracker  => 'https://github.com/dur-randir/Devel-Unstate/issues',
         },
     },
     ABSTRACT_FROM   => 'lib/Devel/Unstate.pm',
