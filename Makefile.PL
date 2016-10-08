@@ -17,6 +17,7 @@ WriteMakefile(
             repository  => 'https://github.com/dur-randir/Devel-Unstate',
             bugtracker  => 'https://github.com/dur-randir/Devel-Unstate/issues',
         },
+        dynamic_config  => 0,
     },
     ABSTRACT_FROM   => 'lib/Devel/Unstate.pm',
     LICENSE         => 'perl',
