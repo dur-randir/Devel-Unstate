@@ -7,8 +7,6 @@ WriteMakefile(
     NAME            => 'Devel::Unstate',
     VERSION_FROM    => 'lib/Devel/Unstate.pm',
     AUTHOR          => ['Sergey Aleynikov <randir@cpan.org>'],
-    PREREQ_PM       => {
-    },
     TEST_REQUIRES   => {
         'Test::More'        => 0,
     },
